@@ -17,8 +17,8 @@ def send_message(message):
     message = client.messages \
         .create(
             body=message,
-            from_='+447897027721',
-            to='+447724860638'
+            from_='<Twillio Phone Number>',
+            to='<Phone Number>'
         )
 
     print(message.sid)
